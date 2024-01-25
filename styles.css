@@ -1,0 +1,176 @@
+body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color:aliceblue;
+            color: #333;
+        }
+
+        header {
+            background-color:#007BFF;
+            padding: 167px;
+            text-align: center;
+            overflow: hidden; 
+        }
+
+        nav {
+            background-color: #333;
+            padding: 20px; 
+            
+            position: absolute;
+            right: 20px;
+            
+            top: 30px;
+           
+            width: calc(70% - 70px);
+        }
+
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+          
+
+        }
+
+        #header h1 {
+            float: left;
+        }
+
+        #header img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-top: 30px;
+            float: right;
+        }
+
+        #header div {
+            color:crimson;
+            font-size: 14px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-top: 200px;
+        }
+
+        #greetings {
+            color:black;
+            font-size: 16px;
+            text-align: center;
+            margin-top: 230px;
+            word-wrap: break-word;
+            font-style: italic; /* Italic font style */
+            font-weight: bold; /* Bold font weight */
+            padding: 20px; /* Added padding for better visual appearance */
+           
+            
+           
+        }
+        
+        main {
+            
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color:black;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        #objective,
+        #education,
+        #projects,
+        #technical-skills,
+        #achievements,
+        #Online-accounts,
+        #personal-details,
+        #contact {
+            margin-bottom: 30px;
+            background-color:burlywood;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #objective p,
+        #projects ul,
+        #technical-skills ul,
+        #achievements ul,
+        #soft-skills ul,
+        #personal-details ul,
+        #contact p {
+            margin: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+         
+        .project {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        #technical-skills 
+           
+        
+        
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex; /* Display skills in a row */
+        }
+        
+        .skills-list li {
+            margin-right: 40px; /* Adjust the spacing between skills */
+        }
+        
+        .skill-logo {
+            max-width: 70px; /* Set the maximum width for the logos */
+            height: auto;
+            margin-bottom: -15px; /* Adjust the spacing between logo and skill name */
+        }
+        
+        #personal-details strong,
+        #Online-accounts strong,
+        #contact strong{
+            display: inline-block;
+            width: 180px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #333;
+            color: #fff;
+            margin-top: auto;
+        }
